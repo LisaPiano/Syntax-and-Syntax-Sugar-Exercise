@@ -4,15 +4,15 @@
     {
         static void Main(string[] args)
         {
-            int answer = 4;
-            string response;
+            var answer = 4;
+            var response = "";
             if (answer < 9)
             {
-                response = answer + " is less than nine";
+                response = "${answer} is less than nine";
             }
             else
             {
-                response = answer + " is greater than or equal to nine";
+                response = "${answer} is greater than or equal to nine";
             }
         }
     }
